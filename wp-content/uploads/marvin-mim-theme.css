@@ -1,0 +1,108 @@
+/* Marvin The Martian — meme/mim skin only. Elementor layout is unchanged. */
+
+:root {
+  --mim-mars: #ff4e1a;
+  --mim-gold: #ffd23a;
+  --mim-ink: #1a0f0a;
+  --mim-cream: #fff6e8;
+}
+
+body.home {
+  --e-global-color-primary: var(--mim-mars);
+}
+
+#lqd-page-header .elementor-element-e02e9a5 {
+  border-bottom: 2px solid var(--mim-gold);
+}
+
+#menu-item-6384 .lqd-menu-link-top {
+  background: var(--mim-gold);
+  color: var(--mim-ink) !important;
+  border: 2px solid var(--mim-ink);
+  box-shadow: 3px 3px 0 var(--mim-mars);
+  border-radius: 10px;
+  padding: 8px 14px !important;
+  font-weight: 700;
+}
+
+.lqd-btn:has(.lqd-btn-txt) {
+  border: 2px solid var(--mim-ink) !important;
+  box-shadow: 4px 4px 0 var(--mim-mars) !important;
+  overflow: visible !important;
+}
+
+.lqd-btn:has(.lqd-btn-txt) .lqd-bg-layer,
+.lqd-btn:has(.lqd-btn-txt) .lqd-color-wrap,
+.lqd-btn:has(.lqd-btn-txt) .lqd-bg-el,
+.lqd-btn:has(.lqd-btn-txt) .lqd-hover-bg-el .lqd-bg-layer {
+  background: var(--mim-gold) !important;
+  background-image: none !important;
+}
+
+.lqd-btn:has(.lqd-btn-txt) .lqd-btn-txt,
+.lqd-btn:has(.lqd-btn-txt) .lqd-btn-icon {
+  color: var(--mim-ink) !important;
+}
+
+.lqd-btn:has(.lqd-btn-txt) .lqd-outline-glow {
+  display: none !important;
+}
+
+.marvin-bio {
+  color: var(--mim-mars) !important;
+}
+
+.marvin-origin__kicker {
+  border: 2px solid var(--mim-ink) !important;
+  background: var(--mim-gold) !important;
+  color: var(--mim-ink) !important;
+  box-shadow: 3px 3px 0 var(--mim-mars);
+}
+
+.marvin-origin__lede,
+.marvin-tweet__mark,
+.marvin-origin__cta {
+  color: var(--mim-mars) !important;
+}
+
+.marvin-origin__cta:hover {
+  color: var(--mim-gold) !important;
+}
+
+.marvin-tweet {
+  background: var(--mim-cream) !important;
+  border: 2px solid var(--mim-ink) !important;
+  box-shadow: 6px 6px 0 var(--mim-mars) !important;
+  color: var(--mim-ink) !important;
+}
+
+.marvin-tweet:hover,
+.marvin-tweet:focus-visible {
+  border-color: var(--mim-mars) !important;
+  box-shadow: 8px 8px 0 var(--mim-gold) !important;
+}
+
+.marvin-tweet__name,
+.marvin-tweet__text,
+.marvin-tweet__x,
+.marvin-tweet__stats strong {
+  color: var(--mim-ink) !important;
+}
+
+.marvin-origin__glow {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 210, 58, 0.28) 0%,
+    rgba(255, 78, 26, 0.12) 42%,
+    transparent 72%
+  ) !important;
+}
+
+.lqd-tabs-content h2 span[style*="#ff6600"] {
+  color: var(--mim-mars) !important;
+}
+
+mark.lqd-highlight,
+.lqd-text-highlight {
+  background-image: linear-gradient(transparent 62%, rgba(255, 210, 58, 0.85) 62%) !important;
+}
