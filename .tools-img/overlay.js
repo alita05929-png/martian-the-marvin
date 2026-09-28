@@ -3,7 +3,7 @@ const path = require("path");
 
 const UP = "E:/Rocket/sunson12/Solana/Dog/marvin/wp-content/uploads/2024/09";
 const SRC = "E:/Rocket/sunson12/Solana/Dog/marvin/.tools-img/backup";
-const LOGO = "E:/Rocket/sunson12/Solana/Dog/marvin/.tools-img/solana.svg";
+const LOGO = "E:/pack/bsc/marvin/.tools-img/bnb.svg";
 const PREVIEW = "E:/Rocket/sunson12/Solana/Dog/marvin/.tools-img/preview";
 
 const overlays = {
